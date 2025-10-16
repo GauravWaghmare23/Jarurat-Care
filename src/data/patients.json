@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Sharma",
+    "age": 35,
+    "gender": "Male",
+    "contact": "+91-98100-12345",
+    "email": "arjun.sharma@example.in",
+    "address": "Flat 4B, Sector 14, Dwarka, New Delhi 110078",
+    "medical_record": {
+      "history": "Seasonal allergies (pollen). No major surgeries.",
+      "blood_type": "A+",
+      "allergies": ["Pollen"],
+      "last_visit": "2025-05-10",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Routine Physical Exam",
+        "discharge_date": "2025-05-10",
+        "primary_physician": "Dr. E. Ramaswamy"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "age": 42,
+    "gender": "Female",
+    "contact": "+91-99200-54321",
+    "email": "priya.patel@example.in",
+    "address": "B-501, Hiranandani Estate, Thane, Mumbai 400607",
+    "medical_record": {
+      "history": "Type 2 Diabetes Mellitus, diagnosed 5 years ago. Controlled with Metformin.",
+      "blood_type": "O-",
+      "allergies": ["Penicillin (mild rash)"],
+      "last_visit": "2025-09-01",
+      "hospital_condition": {
+        "status": "Active Outpatient",
+        "admitted_for": "Diabetic Management and Foot Exam",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. K. Saxena"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Ravi Kumar",
+    "age": 28,
+    "gender": "Male",
+    "contact": "+91-93310-98765",
+    "email": "ravi.k@example.in",
+    "address": "789 Oak Ave, Jayanagar, Bengaluru 560011",
+    "medical_record": {
+      "history": "Mild persistent Asthma. Uses Salbutamol inhaler as needed (PRN).",
+      "blood_type": "B+",
+      "allergies": ["Dust mites"],
+      "last_visit": "2025-10-05",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Asthma Flare-up",
+        "discharge_date": "2025-09-15",
+        "primary_physician": "Dr. A. Chowdhury"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sarla Devi",
+    "age": 55,
+    "gender": "Female",
+    "contact": "+91-94450-34567",
+    "email": "sarla.devi@example.in",
+    "address": "321 Pine St, Alipore, Kolkata 700027",
+    "medical_record": {
+      "history": "Essential Hypertension. Controlled with Lisinopril 10mg daily. History of smoking (quit 10 years ago).",
+      "blood_type": "AB-",
+      "allergies": ["None known"],
+      "last_visit": "2025-08-20",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Cardiac Stress Test",
+        "discharge_date": "2025-08-21",
+        "primary_physician": "Dr. S. Kulkarni"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Nisha Verma",
+    "age": 31,
+    "gender": "Female",
+    "contact": "+91-97780-12345",
+    "email": "nisha.verma@example.in",
+    "address": "654 Elm Blvd, Jubilee Hills, Hyderabad 500033",
+    "medical_record": {
+      "history": "Food allergies (peanuts). Carries an EpiPen. History of a fractured wrist (2020).",
+      "blood_type": "O+",
+      "allergies": ["Peanuts (anaphylaxis)"],
+      "last_visit": "2025-07-12",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Allergy Test Panel",
+        "discharge_date": "2025-07-12",
+        "primary_physician": "Dr. L. Sahoo"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Vikram Singh",
+    "age": 47,
+    "gender": "Male",
+    "contact": "+91-98870-67890",
+    "email": "vikram.s@example.in",
+    "address": "987 Maple Dr, Adyar, Chennai 600020",
+    "medical_record": {
+      "history": "Chronic lower back pain, likely due to a lumbar disc herniation (L4-L5). Managed with physical therapy.",
+      "blood_type": "B-",
+      "allergies": ["Ibuprofen (stomach upset)"],
+      "last_visit": "2025-09-25",
+      "hospital_condition": {
+        "status": "Active Therapy",
+        "admitted_for": "Inpatient Physical Therapy",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. R. Menon"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Ayesha Khan",
+    "age": 61,
+    "gender": "Female",
+    "contact": "+91-92130-40000",
+    "email": "a.khan@example.in",
+    "address": "101 Grand Ave, Civil Lines, Pune 411001",
+    "medical_record": {
+      "history": "Osteoarthritis in knees and hips. Post-menopausal.",
+      "blood_type": "A-",
+      "allergies": ["Latex"],
+      "last_visit": "2025-09-10",
+      "hospital_condition": {
+        "status": "Surgery Scheduled",
+        "admitted_for": "Right Knee Replacement (Elective)",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. C. Deshpande"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Gaurav Mehta",
+    "age": 19,
+    "gender": "Male",
+    "contact": "+91-90570-12121",
+    "email": "gaurav.mehta@example.in",
+    "address": "202 Ocean View Rd, Candolim, Goa 403515",
+    "medical_record": {
+      "history": "Mononucleosis (Glandular fever) 2 years ago. Fully recovered.",
+      "blood_type": "AB+",
+      "allergies": ["None known"],
+      "last_visit": "2025-06-05",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Sprained Ankle",
+        "discharge_date": "2025-06-06",
+        "primary_physician": "Dr. B. Singh"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Kiran Rao",
+    "age": 75,
+    "gender": "Female",
+    "contact": "+91-96020-89898",
+    "email": "kiran.rao@example.in",
+    "address": "303 Desert Palm Ct, Banjara Hills, Hyderabad 500034",
+    "medical_record": {
+      "history": "Atrial Fibrillation (AFib). On Warfarin for blood thinning. Takes Digoxin.",
+      "blood_type": "O+",
+      "allergies": ["Aspirin"],
+      "last_visit": "2025-10-15",
+      "hospital_condition": {
+        "status": "Admitted (Stable)",
+        "admitted_for": "Rhythm Check and Medication Adjustment",
+        "admission_date": "2025-10-15",
+        "primary_physician": "Dr. H. Srinivasan"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Rahul Das",
+    "age": 50,
+    "gender": "Male",
+    "contact": "+91-94040-33333",
+    "email": "rahul.das@example.in",
+    "address": "404 Peach Tree Ln, Salt Lake City, Kolkata 700064",
+    "medical_record": {
+      "history": "Gastroesophageal Reflux Disease (GERD). Managed with diet and Omeprazole.",
+      "blood_type": "A+",
+      "allergies": ["None known"],
+      "last_visit": "2025-09-07",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Upper Endoscopy",
+        "discharge_date": "2025-09-08",
+        "primary_physician": "Dr. M. Joshi"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Swati Varma",
+    "age": 22,
+    "gender": "Female",
+    "contact": "+91-97130-22222",
+    "email": "swati.v@example.in",
+    "address": "505 Willow Creek Dr, Sector 45, Gurgaon 122003",
+    "medical_record": {
+      "history": "Anxiety Disorder. Attends regular counseling sessions.",
+      "blood_type": "B+",
+      "allergies": ["Sulfa drugs"],
+      "last_visit": "2025-10-01",
+      "hospital_condition": {
+        "status": "N/A",
+        "admitted_for": "Mental Health Consultation",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. P. Hegde"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Akash Gupta",
+    "age": 68,
+    "gender": "Male",
+    "contact": "+91-93120-88888",
+    "email": "akash.gupta@example.in",
+    "address": "606 Riverwalk Ave, Gomti Nagar, Lucknow 226010",
+    "medical_record": {
+      "history": "Coronary Artery Disease (CAD). Had a stent placed 3 years ago. Takes statins.",
+      "blood_type": "O-",
+      "allergies": ["Shellfish"],
+      "last_visit": "2025-07-28",
+      "hospital_condition": {
+        "status": "Follow-up",
+        "admitted_for": "Angiogram",
+        "discharge_date": "2025-07-29",
+        "primary_physician": "Dr. T. Reddy"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Deepa Singhania",
+    "age": 39,
+    "gender": "Female",
+    "contact": "+91-95030-55555",
+    "email": "d.singhania@example.in",
+    "address": "707 Forest Edge, Koregaon Park, Pune 411001",
+    "medical_record": {
+      "history": "Chronic Migraines, controlled with Triptans. No other significant history.",
+      "blood_type": "A+",
+      "allergies": ["None known"],
+      "last_visit": "2025-08-01",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Migraine Treatment (IV Drip)",
+        "discharge_date": "2025-08-01",
+        "primary_physician": "Dr. M. Goel"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Naveen Choudhary",
+    "age": 58,
+    "gender": "Male",
+    "contact": "+91-92060-99999",
+    "email": "naveen.c@example.in",
+    "address": "808 Harbor View, Colaba, Mumbai 400005",
+    "medical_record": {
+      "history": "Sleep Apnea. Uses a CPAP machine nightly. Overweight (BMI 32).",
+      "blood_type": "B-",
+      "allergies": ["Codeine"],
+      "last_visit": "2025-09-03",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Sleep Study (Polysomnography)",
+        "discharge_date": "2025-09-04",
+        "primary_physician": "Dr. L. Dasgupta"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Ishita Roy",
+    "age": 45,
+    "gender": "Female",
+    "contact": "+91-99010-66666",
+    "email": "ishita.roy@example.in",
+    "address": "909 Midtown Pl, Anna Nagar, Chennai 600040",
+    "medical_record": {
+      "history": "Hypothyroidism, managed with Levothyroxine. Has two healthy children.",
+      "blood_type": "O+",
+      "allergies": ["None known"],
+      "last_visit": "2025-10-10",
+      "hospital_condition": {
+        "status": "N/A",
+        "admitted_for": "Thyroid Function Test",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. E. Dhawan"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Manish Wadhwa",
+    "age": 71,
+    "gender": "Male",
+    "contact": "+91-96170-11111",
+    "email": "manish.w@example.in",
+    "address": "111 Beacon Hill, Golf Links, New Delhi 110003",
+    "medical_record": {
+      "history": "History of prostate cancer (remission for 5 years). Follow-up PSA testing.",
+      "blood_type": "A-",
+      "allergies": ["Iodine contrast dye"],
+      "last_visit": "2025-07-01",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Post-Chemotherapy Evaluation",
+        "discharge_date": "2025-07-03",
+        "primary_physician": "Dr. J. Bhushan"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Neha Pande",
+    "age": 24,
+    "gender": "Female",
+    "contact": "+91-94150-22222",
+    "email": "neha.pande@example.in",
+    "address": "222 Lombard St, Malviya Nagar, Jaipur 302017",
+    "medical_record": {
+      "history": "Severe food poisoning 1 year ago. No chronic conditions.",
+      "blood_type": "O-",
+      "allergies": ["None known"],
+      "last_visit": "2025-06-18",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Severe Gastroenteritis",
+        "discharge_date": "2025-06-20",
+        "primary_physician": "Dr. R. Kapoor"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Alok Desai",
+    "age": 65,
+    "gender": "Male",
+    "contact": "+91-95120-88888",
+    "email": "alok.desai@example.in",
+    "address": "333 Barton Springs Rd, Vastrapur, Ahmedabad 380015",
+    "medical_record": {
+      "history": "Rheumatoid Arthritis (RA). Requires periodic steroid injections for joint inflammation.",
+      "blood_type": "B+",
+      "allergies": ["Sulfa drugs"],
+      "last_visit": "2025-10-12",
+      "hospital_condition": {
+        "status": "Active Treatment",
+        "admitted_for": "Joint Injection Procedure",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. D. Jain"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Vandana Iyer",
+    "age": 53,
+    "gender": "Female",
+    "contact": "+91-93140-00000",
+    "email": "vandana.i@example.in",
+    "address": "444 Arch Way, Indiranagar, Bengaluru 560038",
+    "medical_record": {
+      "history": "Chronic Kidney Disease (Stage 3). Requires careful monitoring of fluid intake and diet.",
+      "blood_type": "A+",
+      "allergies": ["None known"],
+      "last_visit": "2025-10-08",
+      "hospital_condition": {
+        "status": "Admitted (Monitoring)",
+        "admitted_for": "Electrolyte and Kidney Function Stabilization",
+        "admission_date": "2025-10-14",
+        "primary_physician": "Dr. S. Kanth"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Jatin Malhotra",
+    "age": 40,
+    "gender": "Male",
+    "contact": "+91-92150-55555",
+    "email": "jatin.malhotra@example.in",
+    "address": "555 Liberty Bell Ln, Sector 18, Chandigarh 160018",
+    "medical_record": {
+      "history": "History of broken collarbone (2018). Otherwise healthy.",
+      "blood_type": "O-",
+      "allergies": ["Fentanyl"],
+      "last_visit": "2025-04-10",
+      "hospital_condition": {
+        "status": "N/A",
+        "admitted_for": "Routine Check-up",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. J. Singh"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Shreya Hegde",
+    "age": 30,
+    "gender": "Female",
+    "contact": "+91-96020-45678",
+    "email": "shreya.h@example.in",
+    "address": "100 Sunshine Rd, T Nagar, Chennai 600017",
+    "medical_record": {
+      "history": "No chronic conditions. Regular traveler.",
+      "blood_type": "A-",
+      "allergies": ["Kiwi"],
+      "last_visit": "2025-09-02",
+      "hospital_condition": {
+        "status": "Discharged",
+        "admitted_for": "Vaccinations for Travel",
+        "discharge_date": "2025-09-02",
+        "primary_physician": "Dr. A. Joseph"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Ashok Tiwari",
+    "age": 59,
+    "gender": "Male",
+    "contact": "+91-97730-65432",
+    "email": "ashok.t@example.in",
+    "address": "200 Lake Shore Dr, Hauz Khas, New Delhi 110016",
+    "medical_record": {
+      "history": "Mild Depression. Treated with medication and cognitive-behavioral therapy (CBT).",
+      "blood_type": "AB-",
+      "allergies": ["Tetracycline"],
+      "last_visit": "2025-10-04",
+      "hospital_condition": {
+        "status": "Active Outpatient",
+        "admitted_for": "Psychiatric Evaluation",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. C. Chawla"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Kavita Reddy",
+    "age": 49,
+    "gender": "Female",
+    "contact": "+91-98010-33333",
+    "email": "kavita.r@example.in",
+    "address": "300 Mountain View, Secunderabad, Hyderabad 500003",
+    "medical_record": {
+      "history": "Gallstones (Cholelithiasis). Scheduled for elective surgery.",
+      "blood_type": "O-",
+      "allergies": ["Dairy (lactose intolerance)"],
+      "last_visit": "2025-08-15",
+      "hospital_condition": {
+        "status": "Surgery Scheduled",
+        "admitted_for": "Laparoscopic Cholecystectomy",
+        "admission_date": "2025-11-01",
+        "primary_physician": "Dr. K. Narayan"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Brijesh Das",
+    "age": 78,
+    "gender": "Male",
+    "contact": "+91-94040-99999",
+    "email": "brijesh.das@example.in",
+    "address": "400 Maplewood Ln, Banjara Hills, Hyderabad 500034",
+    "medical_record": {
+      "history": "Dementia (Alzheimer's type). Requires 24-hour care. Prone to falls.",
+      "blood_type": "A+",
+      "allergies": ["NSAIDs (Non-steroidal anti-inflammatory drugs)"],
+      "last_visit": "2025-10-13",
+      "hospital_condition": {
+        "status": "Admitted (Critical)",
+        "admitted_for": "Hip Fracture due to Fall",
+        "admission_date": "2025-10-14",
+        "primary_physician": "Dr. E. Kapoor"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Anjali Menon",
+    "age": 33,
+    "gender": "Female",
+    "contact": "+91-97180-12340",
+    "email": "anjali.menon@example.in",
+    "address": "500 Marine Drive, Nariman Point, Mumbai 400021",
+    "medical_record": {
+      "history": "Polycystic Ovary Syndrome (PCOS). Manages symptoms with hormonal birth control.",
+      "blood_type": "B-",
+      "allergies": ["None known"],
+      "last_visit": "2025-07-20",
+      "hospital_condition": {
+        "status": "N/A",
+        "admitted_for": "Routine Gynecological Exam",
+        "discharge_date": "N/A",
+        "primary_physician": "Dr. M. Shetty"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Sanjay Kapoor",
+    "age": 62,
+    "gender": "Male",
+    "contact": "+91-92810-44444",
+    "email": "sanjay.k@example.in",
+    "address": "600 Galleria Park, Velachery, Chennai 600042",
+    "medical_record": {
+      "history": "History of stroke (CVA) 4 years ago. Residual weakness on the left side. Takes blood thinners.",
+      "blood_type": "O+",
+      "allergies": ["Aspirin (interacted with Warfarin)"],
+      "last_visit": "2025-09-30",
+      "hospital_condition": {
+        "status": "Active Rehabilitation",
+        "admitted_for": "Post-Stroke Physical and Occupational Therapy",
+        "admission_date": "2025-09-28",
+        "primary_physician": "Dr. T. Verma"
+      }
+    }
+  }
+]
