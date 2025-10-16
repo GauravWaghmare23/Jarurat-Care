@@ -15,7 +15,7 @@ JaruratCare is a React-based patient management dashboard that allows users to v
 
 ## 🌐 Live Demo
 
-Check out the deployed application: [https://jarurat-care-jpr5.onrender.com/about](https://jarurat-care-jpr5.onrender.com/about)
+Check out the deployed application: [https://jarurat-care-jpr5.onrender.com](https://jarurat-care-jpr5.onrender.com)
 
 ## 📸 Screenshots
 
